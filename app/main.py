@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from app.routers import cities, temperatures
 from app.database import engine
 from app import models
